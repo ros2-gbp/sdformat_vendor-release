@@ -2,6 +2,11 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2024-04-23)
+------------------
+* Use an alias target for root library
+* Contributors: Addisu Z. Taddese
+
 0.0.3 (2024-04-09)
 ------------------
 * Add target with <pkg>::<pkg> format (`#2 <https://github.com/gazebo-release/sdformat_vendor/issues/2>`_)
