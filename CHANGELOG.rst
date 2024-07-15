@@ -2,6 +2,11 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2024-07-15)
+------------------
+* Update vendored package version to 14.4.0
+* Contributors: Addisu Z. Taddese
+
 0.0.4 (2024-04-25)
 ------------------
 * Use an alias target for root library
