@@ -4,7 +4,7 @@ project(sdformat_vendor)
 
 # Project-specific settings
 set(LIB_VER_MAJOR 14)
-set(LIB_VER_MINOR 2)
+set(LIB_VER_MINOR 4)
 set(LIB_VER_PATCH 0)
 
 # Derived variables
