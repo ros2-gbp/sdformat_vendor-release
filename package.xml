@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.6</version>
+  <version>0.2.0</version>
   <description>
-    Vendor package for: sdformat14 14.5.0
+    Vendor package for: sdformat15 15.0.0
 
     SDFormat is an XML file format that describes environments, objects, and robots
 in a manner suitable for robotic applications
@@ -40,7 +40,7 @@ in a manner suitable for robotic applications
   <depend>gz_tools_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">sdformat14</depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">sdformat15</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
