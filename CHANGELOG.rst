@@ -2,35 +2,23 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.1 (2024-11-05)
+0.0.7 (2024-11-05)
 ------------------
 * Replace liburdfdom-dev with the ROS package urdfdom (`#6 <https://github.com/gazebo-release/sdformat_vendor/issues/6>`_)
   This ensures that we use the same version on all supported platforms
 * Contributors: Addisu Z. Taddese
 
-0.2.0 (2024-09-30)
-------------------
-* Bump version to 15.0.0 (`#5 <https://github.com/gazebo-release/sdformat_vendor/issues/5>`_)
-* Apply prerelease suffix (`#3 <https://github.com/gazebo-release/sdformat_vendor/issues/3>`_)
-* Upgrade to Ionic
-* Contributors: Addisu Z. Taddese
-
-0.1.3 (2024-08-08)
+0.0.6 (2024-08-08)
 ------------------
 * Update vendored package version to 14.5.0
 * Contributors: Addisu Z. Taddese
 
-0.1.2 (2024-07-15)
+0.0.5 (2024-07-15)
 ------------------
 * Update vendored package version to 14.4.0
 * Contributors: Addisu Z. Taddese
 
-0.1.1 (2024-05-29)
-------------------
-* Update underlying version to 14.2.0
-* Contributors: Addisu Z. Taddese
-
-0.1.0 (2024-04-23)
+0.0.4 (2024-04-25)
 ------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
