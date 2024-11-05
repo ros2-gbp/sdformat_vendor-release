@@ -10,7 +10,7 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.6</version>
+  <version>0.0.7</version>
   <description>
     Vendor package for: sdformat14 14.5.0
 
@@ -26,10 +26,10 @@ in a manner suitable for robotic applications
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
   <build_depend>tinyxml2</build_depend>
-  <build_depend>liburdfdom-dev</build_depend>
+  <build_depend>urdfdom</build_depend>
   <build_depend>pybind11-dev</build_depend>
   <exec_depend>tinyxml2</exec_depend>
-  <exec_depend>liburdfdom-dev</exec_depend>
+  <exec_depend>urdfdom</exec_depend>
   <exec_depend>pybind11-dev</exec_depend>
   <test_depend>libxml2-utils</test_depend>
   <test_depend>python3-psutil</test_depend>
