@@ -1,3 +1,26 @@
+## sdformat_vendor (rolling) - 0.2.3-1
+
+The packages in the `sdformat_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling sdformat_vendor` on `Tue, 26 Nov 2024 19:15:16 -0000`
+
+The `sdformat_vendor` package was released.
+
+Version of package(s) in repository `sdformat_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/sdformat_vendor.git
+- release repository: https://github.com/ros2-gbp/sdformat_vendor-release.git
+- rosdistro version: `0.2.2-1`
+- old version: `0.2.2-1`
+- new version: `0.2.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## sdformat_vendor (jazzy) - 0.0.8-1
 
 The packages in the `sdformat_vendor` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy sdformat_vendor` on `Tue, 26 Nov 2024 19:11:54 -0000`
