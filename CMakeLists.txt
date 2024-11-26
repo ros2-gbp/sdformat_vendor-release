@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 project(sdformat_vendor)
 
 # Project-specific settings
-set(LIB_VER_MAJOR 15)
-set(LIB_VER_MINOR 1)
+set(LIB_VER_MAJOR 14)
+set(LIB_VER_MINOR 6)
 set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
