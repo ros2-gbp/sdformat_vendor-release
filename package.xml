@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.2.2</version>
+  <version>0.2.3</version>
   <description>
-    Vendor package for: sdformat15 15.1.0
+    Vendor package for: sdformat15 15.1.1
 
     SDFormat is an XML file format that describes environments, objects, and robots
 in a manner suitable for robotic applications
@@ -25,6 +25,7 @@ in a manner suitable for robotic applications
   <buildtool_depend>ament_cmake_test</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <buildtool_depend>cmake</buildtool_depend>
   <build_depend>tinyxml2</build_depend>
   <build_depend>urdfdom</build_depend>
   <build_depend>pybind11-dev</build_depend>
