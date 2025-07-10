@@ -1,0 +1,74 @@
+ros-jazzy-sdformat-vendor (0.0.10-1bookworm) bookworm; urgency=high
+
+  * Bump version to 14.8.0 (#15 <https://github.com/gazebo-release/sdformat_vendor/issues/15>)
+  * Contributors: Ian Chen, Jose Luis Rivero
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 09 Jul 2025 22:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.9-1bookworm) bookworm; urgency=high
+
+  * Bump version to 14.7.0 (#11 <https://github.com/gazebo-release/sdformat_vendor/issues/11>)
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 06 Feb 2025 23:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.8-1bookworm) bookworm; urgency=high
+
+  * Bump version to 14.6.0 (#10 <https://github.com/gazebo-release/sdformat_vendor/issues/10>)
+  * Contributors: Nate Koenig
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 25 Nov 2024 23:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.7-1bookworm) bookworm; urgency=high
+
+  * Replace liburdfdom-dev with the ROS package urdfdom (#6 <https://github.com/gazebo-release/sdformat_vendor/issues/6>)
+    This ensures that we use the same version on all supported platforms
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 04 Nov 2024 23:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.6-1bookworm) bookworm; urgency=high
+
+  * Update vendored package version to 14.5.0
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 07 Aug 2024 22:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.5-1bookworm) bookworm; urgency=high
+
+  * Update vendored package version to 14.4.0
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Sun, 14 Jul 2024 22:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.4-1bookworm) bookworm; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 24 Apr 2024 22:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.3-1bookworm) bookworm; urgency=high
+
+  * Add target with <pkg>::<pkg> format (#2 <https://github.com/gazebo-release/sdformat_vendor/issues/2>)
+    * gz-lib target aliases to gz-lib::gz-lib
+    * Support the '::all' target
+    ---------
+  * Fix issue with sourcing .dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 08 Apr 2024 22:00:00 -0000
+
+ros-jazzy-sdformat-vendor (0.0.2-1bookworm) bookworm; urgency=high
+
+  * Update version, disable pybind11
+    This also removes BUILD_DOCS since it's not a valid CMake argument in
+    libsdformat.
+  * Require calling find_package on the underlying package
+  * Fix linter (#1 <https://github.com/gazebo-release/sdformat_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 28 Mar 2024 23:00:00 -0000
+
+
