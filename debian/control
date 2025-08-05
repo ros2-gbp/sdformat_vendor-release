@@ -1,0 +1,12 @@
+Source: ros-kilted-sdformat-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, libtinyxml2-dev, libxml2-utils <!nocheck>, pybind11-dev, python3-psutil <!nocheck>, python3-pytest <!nocheck>, ros-kilted-ament-cmake-copyright <!nocheck>, ros-kilted-ament-cmake-core, ros-kilted-ament-cmake-lint-cmake <!nocheck>, ros-kilted-ament-cmake-test, ros-kilted-ament-cmake-vendor-package, ros-kilted-ament-cmake-xmllint <!nocheck>, ros-kilted-gz-cmake-vendor, ros-kilted-gz-math-vendor, ros-kilted-gz-tools-vendor, ros-kilted-gz-utils-vendor, ros-kilted-urdfdom, ros-kilted-ros-workspace
+Homepage: https://github.com/gazebosim/sdformat
+Standards-Version: 3.9.2
+
+Package: ros-kilted-sdformat-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml2-dev, pybind11-dev, ros-kilted-gz-cmake-vendor, ros-kilted-gz-math-vendor, ros-kilted-gz-tools-vendor, ros-kilted-gz-utils-vendor, ros-kilted-urdfdom, ros-kilted-ros-workspace
+Description: Vendor package for: sdformat15 15.3.0 SDFormat is an XML file format that describes environments, objects, and robots in a manner suitable for robotic applications
