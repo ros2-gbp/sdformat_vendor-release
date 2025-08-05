@@ -4,7 +4,7 @@ project(sdformat_vendor)
 
 # Project-specific settings
 set(LIB_VER_MAJOR 15)
-set(LIB_VER_MINOR 2)
+set(LIB_VER_MINOR 3)
 set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
