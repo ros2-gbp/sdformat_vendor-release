@@ -2,10 +2,27 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.6 (2025-08-04)
+0.3.0 (2025-09-08)
 ------------------
-* Bump version to 15.3.0 (`#13 <https://github.com/gazebo-release/sdformat_vendor/issues/13>`_)
-* Contributors: Ian Chen
+* Jetty support: bump to 16.0.0, fix package names (`#16 <https://github.com/gazebo-release/sdformat_vendor/issues/16>`_)
+  * Jetty support: bump to 16.0.0, fix package names
+  Major version numbers have been removed from package
+  names in Gazebo Jetty, so extra cmake config files are
+  no longer needed. Also build python bindings.
+  * Add option VENDOR_FROM_LIB_VCS_REF
+  This allows vendoring from a specified vcs ref instead
+  of the hard-coded tag. When this option is set to true,
+  a branch, tag, or commit can be specified in the
+  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+  vendoring will use main.
+  * 16.0.0~pre1
+  ---------
+* Contributors: Steve Peters
+
+0.2.5 (2025-05-23)
+------------------
+* Bump version to 15.3.0 (`#14 <https://github.com/gazebo-release/sdformat_vendor/issues/14>`_)
+* Contributors: Ian Chen, Jose Luis Rivero
 
 0.2.4 (2025-02-19)
 ------------------
