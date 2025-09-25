@@ -2,6 +2,11 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2025-09-24)
+------------------
+* Bump version to 16.0.0-pre2 (`#19 <https://github.com/gazebo-release/sdformat_vendor/issues/19>`_)
+* Contributors: Addisu Z. Taddese
+
 0.3.0 (2025-09-08)
 ------------------
 * Jetty support: bump to 16.0.0, fix package names (`#16 <https://github.com/gazebo-release/sdformat_vendor/issues/16>`_)
