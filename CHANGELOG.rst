@@ -2,6 +2,16 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2025-10-27)
+------------------
+* Bump version to 16.0.0 (`#20 <https://github.com/gazebo-release/sdformat_vendor/issues/20>`_)
+* Set PYTHONPATH for Jetty packages (`#18 <https://github.com/gazebo-release/sdformat_vendor/issues/18>`_)
+  * Set PYTHONPATH for unversioned packages
+  Also bump to 16.0.0~pre2.
+  * Set PYTHONPATH from separate dsv file
+  ---------
+* Contributors: Ian Chen, Steve Peters
+
 0.3.1 (2025-09-24)
 ------------------
 * Bump version to 16.0.0-pre2 (`#19 <https://github.com/gazebo-release/sdformat_vendor/issues/19>`_)
