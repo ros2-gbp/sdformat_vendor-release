@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 project(sdformat_vendor)
 
 # Project-specific settings
-set(LIB_VER_MAJOR 14)
-set(LIB_VER_MINOR 9)
+set(LIB_VER_MAJOR 15)
+set(LIB_VER_MINOR 4)
 set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
@@ -13,7 +13,7 @@ set(LIB_NAME sdformat)
 set(GITHUB_NAME sdformat)
 string(REPLACE "-" "_" LIB_NAME_UNDERSCORE ${LIB_NAME})
 set(LIB_NAME_COMP_PREFIX ${LIB_NAME})
-set(LIB_NAME_FULL sdformat14)
+set(LIB_NAME_FULL sdformat15)
 set(LIB_VER ${LIB_VER_MAJOR}.${LIB_VER_MINOR}.${LIB_VER_PATCH})
 
 option(VENDOR_FROM_LIB_VCS_REF
