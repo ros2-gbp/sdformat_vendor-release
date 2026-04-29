@@ -1,0 +1,12 @@
+Source: ros-lyrical-sdformat-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, libtinyxml2-dev, libxml2-utils <!nocheck>, pybind11-dev, python3-psutil <!nocheck>, python3-pytest <!nocheck>, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-test, ros-lyrical-ament-cmake-vendor-package, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-utils-vendor, ros-lyrical-urdfdom, ros-lyrical-ros-workspace
+Homepage: https://github.com/gazebosim/sdformat
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-sdformat-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml2-dev, pybind11-dev, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-utils-vendor, ros-lyrical-urdfdom, ros-lyrical-ros-workspace
+Description: Vendor package for: sdformat 16.0.1 SDFormat is an XML file format that describes environments, objects, and robots in a manner suitable for robotic applications
