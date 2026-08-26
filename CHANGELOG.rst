@@ -2,10 +2,18 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.4 (2026-07-16)
+0.4.2 (2026-08-25)
 ------------------
-* Bump version to 16.1.0 (`#26 <https://github.com/gazebo-release/sdformat_vendor/issues/26>`_)
+* Upgrade to Rotary prerelease (`#27 <https://github.com/gazebo-release/sdformat_vendor/issues/27>`_)
+* Contributors: Addisu Z. Taddese
+
+0.4.1 (2026-07-16)
+------------------
+* Bump version to 16.1.0 (`#25 <https://github.com/gazebo-release/sdformat_vendor/issues/25>`_)
 * Contributors: Steve Peters
+
+0.4.0 (2026-05-14)
+------------------
 
 0.3.3 (2026-01-21)
 ------------------
