@@ -2,60 +2,20 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.4.2 (2026-08-25)
+0.2.8 (2026-08-31)
 ------------------
-* Upgrade to Rotary prerelease (`#27 <https://github.com/gazebo-release/sdformat_vendor/issues/27>`_)
+* Enable Python bindings (`#28 <https://github.com/gazebo-release/sdformat_vendor/issues/28>`_)
 * Contributors: Addisu Z. Taddese
 
-0.4.1 (2026-07-16)
+0.2.7 (2026-02-12)
 ------------------
-* Bump version to 16.1.0 (`#25 <https://github.com/gazebo-release/sdformat_vendor/issues/25>`_)
+* Bump version to 15.4.0 (`#24 <https://github.com/gazebo-release/sdformat_vendor/issues/24>`_)
 * Contributors: Steve Peters
 
-0.4.0 (2026-05-14)
+0.2.6 (2025-08-04)
 ------------------
-
-0.3.3 (2026-01-21)
-------------------
-* Bump version to 16.0.1 (`#22 <https://github.com/gazebo-release/sdformat_vendor/issues/22>`_)
-* Contributors: Arjo Chakravarty
-
-0.3.2 (2025-10-27)
-------------------
-* Bump version to 16.0.0 (`#20 <https://github.com/gazebo-release/sdformat_vendor/issues/20>`_)
-* Set PYTHONPATH for Jetty packages (`#18 <https://github.com/gazebo-release/sdformat_vendor/issues/18>`_)
-  * Set PYTHONPATH for unversioned packages
-  Also bump to 16.0.0~pre2.
-  * Set PYTHONPATH from separate dsv file
-  ---------
-* Contributors: Ian Chen, Steve Peters
-
-0.3.1 (2025-09-24)
-------------------
-* Bump version to 16.0.0-pre2 (`#19 <https://github.com/gazebo-release/sdformat_vendor/issues/19>`_)
-* Contributors: Addisu Z. Taddese
-
-0.3.0 (2025-09-08)
-------------------
-* Jetty support: bump to 16.0.0, fix package names (`#16 <https://github.com/gazebo-release/sdformat_vendor/issues/16>`_)
-  * Jetty support: bump to 16.0.0, fix package names
-  Major version numbers have been removed from package
-  names in Gazebo Jetty, so extra cmake config files are
-  no longer needed. Also build python bindings.
-  * Add option VENDOR_FROM_LIB_VCS_REF
-  This allows vendoring from a specified vcs ref instead
-  of the hard-coded tag. When this option is set to true,
-  a branch, tag, or commit can be specified in the
-  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
-  vendoring will use main.
-  * 16.0.0~pre1
-  ---------
-* Contributors: Steve Peters
-
-0.2.5 (2025-05-23)
-------------------
-* Bump version to 15.3.0 (`#14 <https://github.com/gazebo-release/sdformat_vendor/issues/14>`_)
-* Contributors: Ian Chen, Jose Luis Rivero
+* Bump version to 15.3.0 (`#13 <https://github.com/gazebo-release/sdformat_vendor/issues/13>`_)
+* Contributors: Ian Chen
 
 0.2.4 (2025-02-19)
 ------------------
