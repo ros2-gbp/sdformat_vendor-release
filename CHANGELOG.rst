@@ -2,6 +2,11 @@
 Changelog for package sdformat_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.8 (2026-08-31)
+------------------
+* Enable Python bindings (`#28 <https://github.com/gazebo-release/sdformat_vendor/issues/28>`_)
+* Contributors: Addisu Z. Taddese
+
 0.2.7 (2026-02-12)
 ------------------
 * Bump version to 15.4.0 (`#24 <https://github.com/gazebo-release/sdformat_vendor/issues/24>`_)
